@@ -89,13 +89,21 @@ The **Civic Grievance Portal** is a **modern full-stack web platform** designed 
 ## 🖼 Platform Screenshots
 
 ### 🏠 Landing Page
-![Landing Page](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/assets/landing.png)
+<img width="1901" height="854" alt="image" src="https://github.com/user-attachments/assets/fba1751f-4959-4f7d-b9f8-5bdbbadfa5a8" />
 
 ### 🖥 User Dashboard
-![User Dashboard](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/assets/user_dashboard.png)
+<img width="1905" height="700" alt="image" src="https://github.com/user-attachments/assets/542d3996-e525-419d-b4a4-c476bfa84342" />
+<img width="1885" height="752" alt="image" src="https://github.com/user-attachments/assets/572e5212-14f7-4ab5-be49-15340a5b39f3" />
 
-### 📊 Admin Analytics
-![Admin Analytics](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/assets/admin_analytics.png)
+### 📝 Complaint Submission Form
+<img width="1899" height="832" alt="image" src="https://github.com/user-attachments/assets/4f87a6cd-9be7-4a82-9ce2-90296f4d7107" />
+<img width="1889" height="844" alt="image" src="https://github.com/user-attachments/assets/8a113851-b026-41d3-a7f3-2a484aa153e0" />
+<img width="1883" height="288" alt="image" src="https://github.com/user-attachments/assets/6fa89840-c924-4ff2-beb3-1b5d6eb7778b" />
+
+
+
+
+
 
 ---
 
