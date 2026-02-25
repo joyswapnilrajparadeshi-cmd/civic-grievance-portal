@@ -121,30 +121,32 @@ civic-grievance-portal/
 ├── delete_complaint.php
 ├── view_complaints.php
 └── README.md
-⚙ Installation & Setup
-1️⃣ Clone Repository
+```
+## ⚙ Installation & Setup
+### 1️⃣ Clone Repository
 git clone https://github.com/YOUR_USERNAME/civic-grievance-portal.git
-2️⃣ Import Database
+### 2️⃣ Import Database
 
-Create database: civic_grievance
+**Create database**: civic_grievance
 
-Import file: complaints.sql
+**Import file**: complaints.sql
 
-3️⃣ Configure Database
+### 3️⃣ Configure Database
 
-Edit db.php:
+**Edit db.php:**
 
 $host = "localhost";
 $user = "root";
 $pass = "";
 $db   = "civic_grievance";
-4️⃣ Start Server
+### 4️⃣ Start Server
 
 Start Apache & MySQL using XAMPP/WAMP/LAMP
 
-Open in browser: http://localhost/civic-grievance-portal/
+**Open in browser**: http://localhost/civic-grievance-portal/
 
-👨‍💻 Author
+---
+## 👨‍💻 Author
 
 Paradeshi Joy Swapnil Raj
 B.Tech CSE | Full Stack Developer | AI & ML Enthusiast
@@ -153,6 +155,8 @@ B.Tech CSE | Full Stack Developer | AI & ML Enthusiast
 
 🌐 Portfolio: https://joyswapnilrajparadeshi-cmd.github.io/portfolio/
 
-⭐ Support
+---
+
+## ⭐ Support
 
 If you find this project useful, please star ⭐ the repository and support my work!
