@@ -1,179 +1,148 @@
-🏛️ Civic Grievance Portal | Advanced Community Complaint System
+# 🏛 Civic Grievance Portal | Enterprise Full Stack Platform
 
-[
-]
-[
-]
-[
-]
-[
-]
-[
-]
-[
-]
-[
-]
+[![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)]
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)]
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]
+[![PHPMailer](https://img.shields.io/badge/PHPMailer-ff69b4?style=for-the-badge)]
+[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=for-the-badge)]
 
-🌐 Live Demo
+---
 
-🚀 Experience the platform in action:
-👉 municipal-complaint.kesug.com
+## 🌐 Live Demo
 
-🚀 Project Overview
+<p align="center">
+  <a href="https://municipal-complaint.kesug.com" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Platform-blue?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+  </a>
+</p>
 
-Civic Grievance Portal is an advanced, full-stack community complaint system designed to streamline the reporting, management, and resolution of civic issues for municipalities.
+> Click the button above to **experience the Civic Grievance Portal live**.
 
-It provides a secure, role-based platform for:
+---
 
-Citizens to submit and track complaints
+## 🚀 Project Overview
 
-Municipal administrators to manage and resolve grievances
+The **Civic Grievance Portal** is a **modern full-stack web platform** designed to **streamline citizen complaints and feedback management** for municipal authorities. It ensures **secure, transparent, and efficient grievance handling**, while enabling analytics-driven decisions for city administrators.
 
-Automated notifications and email alerts
+**Key Objectives:**
+- Empower citizens to submit complaints easily
+- Provide admins with actionable insights
+- Enable secure notifications and feedback
+- Streamline municipal grievance workflows
 
-Analytics and reporting for efficient governance
+---
 
-Built with production-grade scalability, security, and modern UI for real-world deployment.
+## 🎯 Core Functionalities
 
-🎯 Core Functionalities
-👤 Citizen / User Panel
+### 👤 User Panel
+- Secure Registration & Login
+- Complaint Submission & Tracking
+- Feedback Submission
+- Profile Management
+- OTP-based Password Reset
+- Notification Alerts
 
-Secure Registration & Login
+### 🛠 Admin Panel
+- Admin Authentication
+- View, Update, and Delete Complaints
+- Change Complaint Status
+- Send Notifications via Email
+- Analytics Dashboard (Complaint Insights)
+- Full Database Management
 
-Submit new civic complaints with details and images
+---
 
-Track complaint status in real-time
+## 🧩 Modules Implemented
 
-Receive notifications for updates
+| Module | Description |
+|--------|------------|
+| 👤 User Authentication | Secure registration & login for citizens and admins |
+| 📝 Complaints | Submit, view, edit, delete, and track grievances |
+| 🔔 Notifications | Admin-triggered email alerts for users |
+| 📊 Analytics | Dashboard for complaint trends and statistics |
+| 📨 Feedback | Citizens can submit feedback and suggestions |
+| 🔐 Security | Role-based access, OTP, password hashing, and CSRF-safe forms |
 
-Submit feedback for resolved complaints
+---
 
-🛠 Admin Panel
+## 🏗 Technology Stack
 
-Secure Admin Authentication
+### Backend
+- PHP 8+
+- PHPMailer for emails
 
-View, approve, update, and resolve complaints
+### Database
+- MySQL
 
-Change status and priority of complaints
+### Frontend
+- HTML5 | CSS3 | JavaScript
 
-Send manual notifications to users via email
+### Tools & Infrastructure
+- XAMPP / WAMP / LAMP
+- Composer
+- GitHub
 
-Dashboard with analytics and complaint summaries
+---
 
-Full database control
+## 🖼 Platform Screenshots
 
-🏗 System Architecture
+### 🏠 Landing Page
+![Landing Page](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/assets/landing.png)
 
-Frontend (HTML, CSS, JavaScript)
-↓
-Backend (PHP)
-↓
-Database (MySQL)
-↓
-SMTP Services (PHPMailer)
+### 🖥 User Dashboard
+![User Dashboard](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/assets/user_dashboard.png)
 
-🔐 Security & Access Control
+### 📊 Admin Analytics
+![Admin Analytics](https://raw.githubusercontent.com/YOUR_USERNAME/REPO_NAME/main/assets/admin_analytics.png)
 
-Role-based authentication (Admin / Citizen)
+---
 
-Secure session management
+## 📁 Project Structure
 
-OTP-based password reset
-
-CSRF-safe forms
-
-File upload security
-
-🧩 Modules Implemented
-Module	Description
-👤 User Authentication	Secure login & registration for Citizens and Admin
-📝 Complaints	Submit, view, and manage complaints
-🔔 Notifications	Admin-triggered email alerts for status updates
-📊 Analytics	View statistics and complaint resolution reports
-🛠 Admin Controls	Update complaint status, manage users, and resolve issues
-📩 Feedback	Citizens can submit feedback after resolution
-🛠 Technology Stack
-Backend
-
-PHP 8+
-
-PHPMailer
-
-Database
-
-MySQL
-
-Frontend
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Tools & Infrastructure
-
-XAMPP
-
-Composer
-
-GitHub
-
-🖼 Platform Screenshots
-🏠 Landing Page / Citizen Dashboard
-<img width="1200" alt="Landing Page" src="uploads/landing_page.png" />
-📝 Submit Complaint Form
-<img width="1200" alt="Submit Complaint" src="uploads/new_complaint.png" />
-🛠 Admin Dashboard / Complaint Management
-<img width="1200" alt="Admin Dashboard" src="uploads/admin_dashboard.png" />
-🔔 Notifications & Feedback
-<img width="1200" alt="Notifications & Feedback" src="uploads/notifications_feedback.png" />
-📊 Analytics & Reports
-<img width="1200" alt="Analytics" src="uploads/analytics.png" />
-📁 Project Structure
+```bash
 civic-grievance-portal/
 ├── admin_dashboard.php
 ├── user_dashboard.php
-├── PHPMailer-master/          # SMTP library
-├── api/                       # APIs (if any)
-├── assets/                     # CSS, JS, Images
-├── uploads/                    # User-uploaded files
-├── db.php                      # Database config
-├── complaints.sql              # Database schema
-├── new_complaint.php
-├── view_complaints.php
-├── update_status.php
-├── send_notification.php
-├── reset_password.php
+├── api/               # API endpoints for AJAX / notifications
+├── assets/            # CSS, JS, images
+├── uploads/           # Media uploads
+├── db.php             # Database configuration
+├── complaints.sql     # Database schema
+├── register.php
+├── login.php
+├── logout.php
 ├── forgot_password.php
+├── reset_password.php
 ├── verify_otp.php
+├── send_notification.php
+├── edit_complaint.php
+├── delete_complaint.php
+├── view_complaints.php
 └── README.md
 ⚙ Installation & Setup
 1️⃣ Clone Repository
-git clone https://github.com/joyswapnilrajparadeshi-cmd/civic-grievance-portal.git
+git clone https://github.com/YOUR_USERNAME/civic-grievance-portal.git
 2️⃣ Import Database
 
-Create Database: civic_grievances
+Create database: civic_grievance
 
-Import File: complaints.sql
+Import file: complaints.sql
 
 3️⃣ Configure Database
 
 Edit db.php:
 
-$server = "localhost";
-$user   = "root";
-$pass   = "";
-$db     = "civic_grievances";
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db   = "civic_grievance";
 4️⃣ Start Server
 
-Start Apache & MySQL using XAMPP
+Start Apache & MySQL using XAMPP/WAMP/LAMP
 
-5️⃣ Access System
-
-Open in your browser:
-http://localhost/community_complaint_system/
+Open in browser: http://localhost/civic-grievance-portal/
 
 👨‍💻 Author
 
@@ -184,5 +153,6 @@ B.Tech CSE | Full Stack Developer | AI & ML Enthusiast
 
 🌐 Portfolio: https://joyswapnilrajparadeshi-cmd.github.io/portfolio/
 
-⭐ Support:
+⭐ Support
+
 If you find this project useful, please star ⭐ the repository and support my work!
