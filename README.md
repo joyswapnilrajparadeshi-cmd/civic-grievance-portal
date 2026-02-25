@@ -1,4 +1,4 @@
-🏛 Civic Grievance Portal | Advanced Civic Issue Management System
+🏛️ Civic Grievance Portal | Advanced Community Complaint System
 
 [
 ]
@@ -22,44 +22,44 @@
 
 🚀 Project Overview
 
-Civic Grievance Portal is an advanced civic issue management system designed to streamline citizen complaints and municipal administration.
+Civic Grievance Portal is an advanced, full-stack community complaint system designed to streamline the reporting, management, and resolution of civic issues for municipalities.
 
-It provides a secure, role-based platform enabling:
+It provides a secure, role-based platform for:
 
-Citizens to submit complaints with real-time tracking
+Citizens to submit and track complaints
 
-Admins to monitor, update, and resolve complaints efficiently
+Municipal administrators to manage and resolve grievances
 
-Automated notifications and OTP-based authentication
+Automated notifications and email alerts
 
-Data-driven insights via analytics for municipal authorities
+Analytics and reporting for efficient governance
 
-Built with security, scalability, and transparency in mind for modern civic governance.
+Built with production-grade scalability, security, and modern UI for real-world deployment.
 
 🎯 Core Functionalities
-👤 Citizen Panel
+👤 Citizen / User Panel
 
-Register & login securely
+Secure Registration & Login
 
-Submit civic complaints with description & attachments
+Submit new civic complaints with details and images
 
 Track complaint status in real-time
 
-Provide feedback on resolved issues
+Receive notifications for updates
 
-View personal complaint history
+Submit feedback for resolved complaints
 
 🛠 Admin Panel
 
-Secure admin authentication
+Secure Admin Authentication
 
-View, update, and delete complaints
+View, approve, update, and resolve complaints
 
-Change status of complaints (Pending, In Progress, Resolved)
+Change status and priority of complaints
 
-Send notifications to citizens via email (PHPMailer)
+Send manual notifications to users via email
 
-View analytics & complaint statistics
+Dashboard with analytics and complaint summaries
 
 Full database control
 
@@ -75,24 +75,24 @@ SMTP Services (PHPMailer)
 
 🔐 Security & Access Control
 
-Role-based authentication (Citizen / Admin)
+Role-based authentication (Admin / Citizen)
+
+Secure session management
 
 OTP-based password reset
 
-Secure session handling
+CSRF-safe forms
 
-CSRF-safe form handling
-
-File upload validation for attachments
+File upload security
 
 🧩 Modules Implemented
 Module	Description
-👤 User Authentication	Secure Citizen & Admin Login
-📝 Complaint Management	Submit, update, and resolve civic complaints
-🔔 Notifications	Email alerts for status updates
-📊 Analytics	Admin view of complaints statistics
-📨 Feedback	Citizens can submit post-resolution feedback
-📁 Media Uploads	Attach images or documents to complaints
+👤 User Authentication	Secure login & registration for Citizens and Admin
+📝 Complaints	Submit, view, and manage complaints
+🔔 Notifications	Admin-triggered email alerts for status updates
+📊 Analytics	View statistics and complaint resolution reports
+🛠 Admin Controls	Update complaint status, manage users, and resolve issues
+📩 Feedback	Citizens can submit feedback after resolution
 🛠 Technology Stack
 Backend
 
@@ -120,39 +120,41 @@ Composer
 
 GitHub
 
+🖼 Platform Screenshots
+🏠 Landing Page / Citizen Dashboard
+<img width="1200" alt="Landing Page" src="uploads/landing_page.png" />
+📝 Submit Complaint Form
+<img width="1200" alt="Submit Complaint" src="uploads/new_complaint.png" />
+🛠 Admin Dashboard / Complaint Management
+<img width="1200" alt="Admin Dashboard" src="uploads/admin_dashboard.png" />
+🔔 Notifications & Feedback
+<img width="1200" alt="Notifications & Feedback" src="uploads/notifications_feedback.png" />
+📊 Analytics & Reports
+<img width="1200" alt="Analytics" src="uploads/analytics.png" />
 📁 Project Structure
 civic-grievance-portal/
 ├── admin_dashboard.php
 ├── user_dashboard.php
+├── PHPMailer-master/          # SMTP library
+├── api/                       # APIs (if any)
+├── assets/                     # CSS, JS, Images
+├── uploads/                    # User-uploaded files
+├── db.php                      # Database config
+├── complaints.sql              # Database schema
 ├── new_complaint.php
-├── view_complaint.php
 ├── view_complaints.php
-├── edit_complaint.php
-├── delete_complaint.php
 ├── update_status.php
-├── change_status.php
 ├── send_notification.php
-├── submit_feedback.php
-├── submit_feedback_handler.php
-├── forgot_password.php
 ├── reset_password.php
+├── forgot_password.php
 ├── verify_otp.php
-├── login.php
-├── logout.php
-├── register.php
-├── db.php
-├── complaints.sql
-├── assets/          # CSS, JS, images
-├── uploads/         # Media uploads
-├── api/             # Any API endpoints
-├── PHPMailer-master/ # SMTP library
 └── README.md
 ⚙ Installation & Setup
 1️⃣ Clone Repository
 git clone https://github.com/joyswapnilrajparadeshi-cmd/civic-grievance-portal.git
 2️⃣ Import Database
 
-Create Database: community_complaints
+Create Database: civic_grievances
 
 Import File: complaints.sql
 
@@ -160,10 +162,10 @@ Import File: complaints.sql
 
 Edit db.php:
 
-$server = "localhost";  
-$user   = "root";  
-$pass   = "";  
-$db     = "community_complaints";
+$server = "localhost";
+$user   = "root";
+$pass   = "";
+$db     = "civic_grievances";
 4️⃣ Start Server
 
 Start Apache & MySQL using XAMPP
@@ -182,5 +184,5 @@ B.Tech CSE | Full Stack Developer | AI & ML Enthusiast
 
 🌐 Portfolio: https://joyswapnilrajparadeshi-cmd.github.io/portfolio/
 
-⭐ Support
+⭐ Support:
 If you find this project useful, please star ⭐ the repository and support my work!
