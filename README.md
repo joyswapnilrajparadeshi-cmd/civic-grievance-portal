@@ -13,7 +13,7 @@
 ## 🌐 Live Demo
 
 <p align="center">
-  <a href="https://municipal-complaint.wuaze.com" target="_blank">
+  <a href="https://municipal-complaint.ct.ws" target="_blank">
     <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Platform-blue?style=for-the-badge&logo=google-chrome&logoColor=white"/>
   </a>
 </p>
